@@ -1,0 +1,124 @@
+
+/*Main Css*/
+body{
+	background-color: tomato;
+	font-family: 'Open sans', sans-serif;
+}
+nav{
+	height: auto;
+}
+.brain_logo{
+	width: 150px;
+	height: auto;
+	margin-top:-9px;
+
+
+}
+.navbar-right{
+	margin-top: -8px;
+}
+.navbar-inverse .navbar-toggle{
+	border: 1px solid white;
+}
+.navbar-inverse{
+	border-radius:0px;	
+}
+.main{
+	margin-top: 150px;
+}
+
+.stefan img{
+	height: 16em;
+	width: 16em;
+	border: 4px solid white;
+}
+
+li a{
+	font-size: 16px;
+     margin-top: 14px;
+     font-weight: bold;
+     color: lightgray;
+
+
+}
+li:last-child{
+	margin-right: 70px;
+}
+.stefan h2{
+	font-weight: bold;
+	color: black;
+}
+.stefan h3{
+	font-weight: bold;
+	color: white;
+	font-size: 26px;
+}
+.stefan h4{
+	font-weight: bold;
+	color: white;
+	font-size: 25px;
+}
+
+.list-group-item{
+	width: 70%;
+	color: white;
+	margin-left: 15%;
+	background: transparent;
+	font-size: 22px;
+    letter-spacing: 3px;
+}
+.list-group-item:hover{
+	background: white;
+	color: black;
+	cursor: pointer;
+}
+
+.fsize{
+	font-size: 20px;
+} 
+
+/*Mobile Responsive Css*/
+@media(max-width: 360px){
+
+.navbar-toggle{
+	margin-top: 13px;
+}
+.stefan{
+	margin-top: -40px;
+}
+}
+@media(max-width: 380px){
+
+.navbar-toggle{
+	margin-top: 13px;
+}
+.stefan{
+	margin-top: -40px;
+}
+
+}
+@media(max-width: 426px){
+.navbar-toggle{
+	margin-top: 13px;
+}
+.stefan{
+	margin-top: -40px;
+}
+
+}
+@media(max-width: 769px){
+.navbar-right{
+	margin-top: -8px;
+	margin-right: -65px;
+}
+.stefan{
+	margin-top: -40px;
+}
+.navbar-toggle{
+	margin-top: 13px;
+}
+@media(max-width: 320px){
+	.brain_logo{
+		margin-left: 0px;
+	}
+}

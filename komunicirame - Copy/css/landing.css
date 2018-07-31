@@ -1,0 +1,795 @@
+
+/*Main Css*/
+body{
+	background-color: tomato;
+	font-family: 'Open sans', sans-serif;
+	}
+
+.left{
+	margin-left: 10px;
+	padding-left: 80px;
+}
+.navbar-inverse .navbar-toggle{
+	border: 1px solid white;
+}
+nav{
+	
+	height: auto;
+}
+
+.jumbo h1 {
+	color: white;
+	margin-top: 190px;
+	color: white;
+	animation: fadein 4s;
+	transition: all 4s ease;
+	font-size: 40px;
+	margin-bottom: 15px;
+	margin-left: 50px;
+	font-weight: bold;
+}
+
+.jumbo h2{
+	font-size: 18.2px;
+	color: white;
+	margin-left: 50px;
+	margin-bottom: 60px;
+	animation: fadein 4s;
+	transition: all 4s ease;
+}
+
+
+.brain_logo{
+	width: 150px;
+	height: auto;
+	margin-top:-9px;
+}
+a.link{
+	padding: 18px 40px;
+	background: transparent;
+	border: 1.5px solid white;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 8px;
+	
+	margin-left: 50px;
+	text-decoration: none;
+
+
+
+}
+a.link:hover{
+	background-color: white;
+	color: black;
+	border: 1.5px solid black;
+	text-decoration: none;
+}
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+.google{
+	 width: 83%;
+    height: 83%;
+	cursor: pointer;
+	 margin-top: -38px;
+}
+
+.right{
+	padding-top: 80px;
+	
+}
+.navbar-right{
+	margin-top: -8px;
+}
+
+
+	
+.navbar-inverse{
+	border-radius:0px;	
+}
+li a{
+	font-size: 16px;
+     margin-top: 14px;
+     font-weight: bold;
+     color: lightgray;
+
+
+}
+li:last-child{
+	margin-right: 70px;
+}
+/*Mobile Responsive Css*/
+@media(max-width: 1440px) {
+	.jumbo h1{
+		margin-top: 78px;
+    color: white;
+    animation: fadein 4s;
+    transition: all 4s ease;
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-left: -40px;
+    font-weight: bold;
+
+	}
+	.jumbo h2 {
+    font-size: 18.2px;
+    color: white;
+    margin-left: -40px;
+    margin-bottom: 70px;
+    animation: fadein 4s;
+    transition: all 4s ease;
+}
+.google {
+    
+    width:270px;
+    margin-left: -20px;
+    cursor: pointer;
+    margin-top: -36px;
+}
+a.link{
+	margin-left: -40px;
+	
+}
+.navbar-toggle{
+	margin-top: 30px;
+}
+.navbar-right{
+	margin-top: -8px;
+	margin-right: 0px;
+}
+}
+@media(max-width: 1301px) {
+	.jumbo h1{
+		margin-top: 78px;
+    color: white;
+    animation: fadein 4s;
+    transition: all 4s ease;
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-left: -40px;
+    font-weight: bold;
+
+	}
+	.jumbo h2 {
+    font-size: 18.2px;
+    color: white;
+    margin-left: -40px;
+    margin-bottom: 70px;
+    animation: fadein 4s;
+    transition: all 4s ease;
+}
+.google {
+    width:270px;
+    margin-left: -20px;
+    cursor: pointer;
+    margin-top: -36px;
+}
+a.link{
+	margin-left: -40px;
+	
+}
+.navbar-toggle{
+	margin-top: 30px;
+}
+.navbar-right{
+	margin-top: -8px;
+	margin-right: 0px;
+}
+}
+@media(max-width: 1101px) {
+	.jumbo h1{
+		margin-top: 78px;
+    color: white;
+    animation: fadein 4s;
+    transition: all 4s ease;
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-left: -40px;
+    font-weight: bold;
+
+	}
+	.jumbo h2 {
+    font-size: 18.2px;
+    color: white;
+    margin-left: -40px;
+    margin-bottom: 70px;
+    animation: fadein 4s;
+    transition: all 4s ease;
+}
+.google {
+    margin-left: -20px;
+    cursor: pointer;
+    margin-top: -36px;
+}
+a.link{
+	margin-left: -40px;
+	
+}
+.navbar-toggle{
+	margin-top: 30px;
+}
+.navbar-right{
+	margin-top: -8px;
+	margin-right: 0px;
+}
+}
+@media(max-width: 1025px) {
+	.jumbo h1{
+		margin-top: 78px;
+    color: white;
+    animation: fadein 4s;
+    transition: all 4s ease;
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-left: -40px;
+    font-weight: bold;
+
+	}
+	.jumbo h2 {
+    font-size: 18.2px;
+    color: white;
+    margin-left: -40px;
+    margin-bottom: 70px;
+    animation: fadein 4s;
+    transition: all 4s ease;
+}
+.google {
+    
+    width: 270px;
+    
+    margin-left: -35px;
+    cursor: pointer;
+    margin-top: -36px;
+}
+.navbar-toggle{
+	margin-top: 30px;
+}
+.navbar-right{
+	margin-top: -8px;
+	margin-right: 0px;
+}
+}
+@media(max-width: 1001px){
+	.jumbo h1{
+	color: white;
+	margin-top: 100px;
+	color: white;
+	animation: fadein 4s;
+	transition: all 4s ease;
+	font-size: 32px;
+	margin-bottom: 15px;
+	margin-left: -45px;
+	font-weight: bold;
+	width: 100%;
+	
+	}
+
+	.jumbo h2{
+	width: 100%
+	font-size: 25px;
+	color: white;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	animation: fadein 4s;
+	margin-left: -45px;
+	transition: all 4s ease;
+}
+.google{
+	float: none;
+	margin-left:55px;
+	width: 270px;
+	margin-top: 0px;
+	cursor: pointer;
+}
+.right{
+	padding-top: 70px;
+	margin-right: 33.5%;
+
+	
+}
+.navbar-right{
+	margin-top: -8px;
+	margin-right: 0px;
+}
+.brain_logo{
+	width: 150px;
+	height: auto;
+	margin-top:-9px;
+
+}
+.navbar-toggle{
+	margin-top: 30px;
+}
+a.link{
+	padding: 18px 40px;
+    background: transparent;
+    border: 1.5px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 169px;
+    text-decoration: none;
+
+}
+}
+@media(max-width: 980px){
+	.jumbo h1{
+	color: white;
+	margin-top: 100px;
+	color: white;
+	animation: fadein 4s;
+	transition: all 4s ease;
+	font-size: 32px;
+	margin-bottom: 15px;
+	margin-left: -45px;
+	font-weight: bold;
+	width: 100%;
+	
+	}
+
+	.jumbo h2{
+	width: 100%
+	font-size: 25px;
+	color: white;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	animation: fadein 4s;
+	margin-left: -45px;
+	transition: all 4s ease;
+}
+.google{
+	float: none;
+	margin-left:0px;
+	width: 270px;
+	margin-top: 0px;
+	cursor: pointer;
+}
+.right{
+	padding-top: 70px;
+	margin-right: 33.5%;
+
+	
+}
+.navbar-right{
+	margin-top: -8px;
+	margin-right: -52px;
+}
+.brain_logo{
+	width: 150px
+	height: auto;
+	margin-top:-9px;
+}
+.navbar-toggle{
+	margin-top: 30px;
+}
+a.link{
+	padding: 18px 40px;
+    background: transparent;
+    border: 1.5px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 70px;
+    text-decoration: none;
+
+}
+}
+
+@media(max-width: 769px){
+	.jumbo h1{
+	color: white;
+	margin-top: 100px;
+	color: white;
+	animation: fadein 4s;
+	transition: all 4s ease;
+	font-size: 32px;
+	margin-bottom: 15px;
+	margin-left: -45px;
+	font-weight: bold;
+	width: 100%;
+	
+	}
+
+	.jumbo h2{
+	width: 100%
+	font-size: 25px;
+	color: white;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	animation: fadein 4s;
+	margin-left: -45px;
+	transition: all 4s ease;
+}
+.google{
+	float: none;
+	width: 270px;
+	margin-top: 0px;
+	cursor: pointer;
+}
+.right{
+	padding-top: 70px;
+	margin-right: 26.5%;
+
+	
+}
+.navbar-right{
+	margin-top: -8px;
+	margin-right: -52px;
+}
+.brain_logo{
+	width: 150px;
+	height: auto;
+	margin-top:-9px;
+}
+.navbar-toggle{
+	margin-top: 13px;
+}
+a.link{
+	padding: 18px 40px;
+    background: transparent;
+    border: 1.5px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 70px;
+    text-decoration: none;
+
+}
+}
+@media(max-width: 750px){
+	.jumbo h1{
+	color: white;
+	margin-top: 100px;
+	color: white;
+	animation: fadein 4s;
+	transition: all 4s ease;
+	font-size: 32px;
+	margin-bottom: 15px;
+	margin-left: -45px;
+	font-weight: bold;
+	width: 100%;
+	
+	}
+
+	.jumbo h2{
+	width: 100%
+	font-size: 25px;
+	color: white;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	animation: fadein 4s;
+	margin-left: -45px;
+	transition: all 4s ease;
+}
+.google{
+	float: none;
+	width: 270px;
+	margin-top: 0px;
+	cursor: pointer;
+	margin-left: 0px;
+}
+.right{
+	padding-top: 70px;
+	margin-right: 26%;
+
+	
+}
+.navbar-right{
+	margin-top: -8px;
+	margin-right: -52px;
+}
+.brain_logo{
+	width: 150px;
+	height: auto;
+	margin-top:-9px;
+}
+.navbar-toggle{
+	margin-top: 13px;
+}
+a.link{
+	padding: 18px 40px;
+    background: transparent;
+    border: 1.5px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 0px;
+    text-decoration: none;
+
+}
+}
+@media(max-width: 545px){
+	.jumbo h1{
+	color: white;
+	margin-top: 100px;
+	color: white;
+	animation: fadein 4s;
+	transition: all 4s ease;
+	font-size: 32px;
+	margin-bottom: 15px;
+	margin-left: -45px;
+	font-weight: bold;
+	width: 100%;
+	
+	}
+
+	.jumbo h2{
+	width: 100%
+	font-size: 25px;
+	color: white;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	animation: fadein 4s;
+	margin-left: -45px;
+	transition: all 4s ease;
+}
+.google{
+	float: none;
+	width: 270px;
+	margin-top: 0px;
+	cursor: pointer;
+	margin-left: -40px;
+}
+.right{
+	padding-top: 70px;
+	margin-right: 14%;
+
+	
+}
+.navbar-right{
+	margin-top: -8px;
+	margin-right: -52px;
+}
+.brain_logo{
+	width: 150px;
+	height: auto;
+	margin-top:-9px;
+}
+.navbar-toggle{
+	margin-top: 13px;
+}
+a.link{
+	padding: 18px 40px;
+    background: transparent;
+    border: 1.5px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 0px;
+    text-decoration: none;
+
+}
+}
+@media(max-width: 426px){
+	.jumbo h1{
+	color: white;
+	margin-top: 100px;
+	color: white;
+	animation: fadein 4s;
+	transition: all 4s ease;
+	font-size: 30px;
+	margin-bottom: 15px;
+	margin-left: -40px;
+	font-weight: bold;
+	text-align: center;
+	
+	}
+
+	.jumbo h2{
+	text-align: center;
+	font-size: 21px;
+	color: white;
+	margin-bottom: 50px;
+	animation: fadein 4s;
+	margin-left: -75px;
+	transition: all 4s ease;
+}
+.brain_logo{
+	width: 150px;
+	height: auto;
+	margin-top:-9px;
+}
+.navbar-toggle{
+	margin-top: 13px;
+}
+.google{
+	float: left;
+	margin-left:2px;
+	width: 75%;
+	height: 75%;
+	margin-top: 40px;
+	cursor: pointer;
+}
+a.link{
+	height: 36px;
+	width: 70px;
+	background: transparent;
+	border: 1.5px solid white;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 8px;
+	
+	margin-top: 20px;
+	margin-left:20px;
+	margin-bottom: 30px;
+	cursor: pointer;
+	float: none;
+
+
+}
+
+.right{
+	padding-top: 80px;
+	margin-right: 0px;
+	
+}
+.right img{
+	width: 100%;
+}
+@media(max-width: 380px){
+	.jumbo h1{
+		color: white;
+	margin-top: 100px;
+	color: white;
+	animation: fadein 4s;
+	transition: all 4s ease;
+	font-size: 30px;
+	margin-bottom: 15px;
+	margin-left: -40px;
+	font-weight: bold;
+	text-align: center;
+	
+	}
+
+	.jumbo h2{
+	font-size: 21px;
+	color: white;	
+	margin-bottom: 50px;
+	animation: fadein 4s;
+	margin-left: -75px;
+	transition: all 4s ease;
+}
+.brain_logo{
+	width: 150px;
+	height: auto;
+	margin-top:-9px;
+}
+.navbar-toggle{
+	margin-top: 13px;
+}
+.google{
+	float: left;
+	margin-left:-20px;
+	margin-top: 20px;
+	cursor: pointer;
+	width: 86%;
+	height: 86%;
+}
+a.link{
+	height: 36px;
+	width: 70px;
+	background: transparent;
+	border: 1.5px solid white;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 8px;
+	float: none;
+	
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-bottom: 30px;
+	cursor: pointer;
+
+
+}
+
+.right{
+	padding-top: 80px;
+	margin-right: 0px;
+	
+}
+.right img{
+	width: 100%;
+}
+
+	
+}
+@media(max-width: 360px){
+	.jumbo h1{
+		color: white;
+	margin-top: 100px;
+	color: white;
+	animation: fadein 4s;
+	transition: all 4s ease;
+	font-size: 30px;
+	margin-bottom: 15px;
+	margin-left: -40px;
+	font-weight: bold;
+	text-align: center;
+	
+	}
+
+	.jumbo h2{
+	font-size: 21px;
+	color: white;
+	text-align: center;
+	margin-bottom: 50px;
+	animation: fadein 4s;
+	margin-left: -75px;
+	transition: all 4s ease;
+}
+.brain_logo{
+	width: 150px;
+	height: auto;
+	margin-top:-9px;
+}
+.navbar-toggle{
+	margin-top: 13px;
+}
+.google{
+	float: left;
+	width: 90%;
+	height: 90%;
+	margin-left: -24px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+a.link{
+	height: 36px;
+	width: 70px;
+	background: transparent;
+	border: 1.5px solid white;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 8px;
+	float: none;
+	
+	margin-top: 20px;
+	margin-left: -6px;
+	margin-bottom: 30px;
+	cursor: pointer;
+
+
+}
+
+.right{
+	padding-top: 80px;
+	margin-right: 0px;
+	
+}
+.right img{
+	width: 100%;
+}
+
+	
+}
+
+	
+
